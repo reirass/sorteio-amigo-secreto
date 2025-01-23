@@ -2,6 +2,7 @@
 ![image](https://github.com/user-attachments/assets/f7dad05f-d038-469b-bc4a-bbcc4d8e5462)
 
 # Sobre
+Este projeto foi desenvolvido durante programa Oracle Next Education - ONE (Grupo 8).
 Este projeto é uma aplicação web simples para sortear amigos secretos. Os usuários podem adicionar nomes à lista de amigos e sortear um nome de um amigo de forma aleatória. Essa aplicação permite também um total reset da lista, para inclusão de nomes diferentes.
 
 # Funcionalidades
