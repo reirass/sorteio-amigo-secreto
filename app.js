@@ -4,6 +4,7 @@ const nomeInserido = document.getElementById('amigo');
 const resultadoSorteio = document.getElementById('resultado');
 
 
+
 function adicionarAmigo() {
     const nomeAmigo = nomeInserido.value.trim(); 
 
@@ -40,3 +41,10 @@ function refazerSorteio() {
     atualizarLista();
     resultadoSorteio.innerHTML = "";
 }
+
+nomeInserido.addEventListener('keydown', function(event) {
+    if (event.key === 'Enter' || event.keyCode === 13) {
+        event.preventDefault();
+        adicionarAmigo();
+    }
+});
