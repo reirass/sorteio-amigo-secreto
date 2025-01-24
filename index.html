@@ -18,14 +18,15 @@
         </header>
         
         <section class="input-section">
-            <h2 class="section-title">Digite o nome dos seus amigos</h2>
+            <h2 class="section-title">Digite o nome do amigo</h2>
             <div class="input-wrapper">
+                <label for="amigo" class="sr-only">Digite o nome do amigo</label>
                 <input type="text" id="amigo" class="input-name" placeholder="Digite um nome">
                 <button class="button-add" onclick="adicionarAmigo()">Adicionar</button>
             </div>
            
             <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
-            <ul id="resultado" class="result-list" aria-live="polite"></ul>
+            <div id="resultado" class="result-list" aria-live="polite"></div>
 
             <div class="button-container">
                 <button class="button-draw" id="sortear" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">
@@ -34,7 +35,7 @@
                 </button>
 
                 
-                <button class="button-redo" onclick="refazerSorteio()">
+                <button class="button-redo" onclick="refazerSorteio()" aria-label="Refazer sorteio com novos nomes">
                     <img src="assets/redo-circle-icon.png" alt="Ícone para refazer" width="35px" height="35px">
                     Novos nomes
                 </button>
