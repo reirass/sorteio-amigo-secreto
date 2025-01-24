@@ -1,5 +1,5 @@
 # Sorteio Amigo Secreto
-![image](https://github.com/user-attachments/assets/f7dad05f-d038-469b-bc4a-bbcc4d8e5462)
+![amigo-secreto](https://github.com/user-attachments/assets/7a723484-2ba6-41d9-824e-165f885973ab)
 
 # Sobre
 Este projeto foi desenvolvido durante programa Oracle Next Education - ONE (Grupo 8).
